@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #1d1d1d;
+  /* background: #e5e5e5; */
+}
+
+.container {
+}
+
+.container nav {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10% 5.7%;
+}
+.nav-list-container {
+  display: none;
+}
+.container nav img {
+  width: 35px;
+}
+.container strong {
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+main {
+  width: 100%;
+  padding: 10% 5.7%;
+  margin-bottom: 60.5px;
+  color: #ffffff;
+  text-align: center;
+}
+main h1 {
+  /* width: 390px; */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  /* line-height: 40px; */
+  text-align: center;
+  margin-bottom: 20.46px;
+}
+.main-heading span {
+  /* color: linear-gradient(270deg, #a5d9ff 7.6%, #7399fb 94.15%); */
+  color: rgb(79, 164, 218);
+}
+
+main p {
+  padding: 15% 0;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+main a {
+  text-decoration: none;
+  width: 140px;
+  height: 57.14px;
+  background: #2104d8;
+  border-radius: 8.7907px;
+  padding: 12.307px 30.4372px;
+  /* filter: blur(624px); */
+  color: #ffffff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15.8233px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+section.footer {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background: #111214;
+}
+
+aside {
+  width: 20%;
+  background: #1d1818;
+  color: #ffffff;
+}
+aside ul {
+  margin-top: 18px;
+}
+aside .avatar {
+  padding: 10% 0 10% 10%;
+}
+aside p {
+  /* Zernonia */
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8px;
+  line-height: 6px;
+
+  color: #ffffff;
+}
+aside span,
+aside ul li {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 6px;
+  line-height: 5px;
+
+  color: #a7a7a7;
+}
+aside ul li {
+  list-style: none;
+  padding: 10% 0 10% 10%;
+  line-height: 6px;
+}
+aside ul li.style-before {
+  position: relative;
+  left: 5px;
+}
+aside ul li h5::before {
+  content: "";
+  position: absolute;
+
+  left: -27px;
+  height: 3px;
+  width: 30px;
+  background: blue;
+}
+.avatar {
+  line-height: 5px;
+}
+aside div.avatar div.avatar-image {
+  margin: 15px 0 5px 0;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #e3ff37;
+}
+aside img {
+  width: 20px;
+}
+/* .test {
+  height: 136.29490661621094px;
+  width: 623.152099609375px;
+  left: 296.4379577636719px;
+  top: 337.3841552734375px;
+  border-radius: 0px;
+  background: linear-gradient(rgba(51, 112, 255, 1), rgba(235, 241, 255, 0));
+} */
+article {
+  width: 77%;
+  background: #1d1818;
+  color: #ffffff;
+}
+article header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10% 10% 1% 0;
+  background: #111214;
+}
+article header ul {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-gap: 5px;
+  margin-left: 60px;
+  font-size: 10px;
+  color: #ffffff;
+  width: 70%;
+  padding: 3% 0;
+}
+article header ul li {
+  list-style: none;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6px;
+  line-height: 5px;
+  text-align: center;
+  color: #434343;
+}
+article header ul li a {
+  text-decoration: none;
+  background: blue;
+  color: white;
+  font-size: 8px;
+  padding: 3px;
+}
+article header a.article-dashboard {
+  text-decoration: none;
+  padding-left: 10px;
+  color: #ffffff;
+  width: 30%;
+  font-size: 10px;
+}
+div.chart-wrapper {
+  background: #1d1818;
+  /* height: 115.27px; */
+  border-radius: 10px;
+}
+div.chart-wrapper .chart-nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 2px 10px;
+}
+div.chart-wrapper .chart-nav ul li {
+  list-style: none;
+  font-size: 8px;
+}
+div.chart-wrapper .chart-nav ul:last-child {
+  margin-right: 30px;
+}
+.chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
